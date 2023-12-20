@@ -1,7 +1,5 @@
 package org.factoriaf5.apimovies.controllers;
-
 import java.util.List;
-    
 import org.factoriaf5.apimovies.models.Movie;
 import org.factoriaf5.apimovies.services.MovieService;
 import org.springframework.http.HttpStatusCode;
@@ -12,8 +10,6 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-
-
 
 @RestController
 @RequestMapping(path = "${api-endpoint}/movies")
